@@ -1,0 +1,19 @@
+[control]
+Port = 8888
+Debug = 1
+LogToStderr = 1
+Logging = debug
+DefaultBackend = couchbase
+
+[couchbase]
+Server = localhost
+Port = 8091
+User = default
+Password = 
+DefaultBucket = default
+
+[mysql]
+Server = localhost
+User = default
+Password = 
+DefaultDatabase = default
